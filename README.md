@@ -3,8 +3,9 @@ A repo to store references for various technologies. For AWS visit here, for AWS
 
 ## File Tree
 ```bash
-find . -type f \( -name '*.md' -o -name '*.pkl' -o -name '*.csv' -o -name '*.sql' -o -name '*.py' -o -name '*.png' \) | sort -t '/' -k 1 -k 2 | awk -v base=https://github.com/Shavvimal/personal_wiki/blob/main/ -f ./scr.bash >> README.md
+find . -type f \( -name '*.md' \) | sort -t '/' -k 1 -k 2 | awk -v base=https://github.com/Shavvimal/personal_wiki/blob/main/ -f ./scr.bash >> README.md
 ```
+
  * 1_Environment_Setup/
      + [1.1_Pre_Work.md](https://github.com/Shavvimal/personal_wiki/blob/main/1_Environment_Setup/1.1_Pre_Work.md)
      + [1.2_MacOS_Setup.md](https://github.com/Shavvimal/personal_wiki/blob/main/1_Environment_Setup/1.2_MacOS_Setup.md)
@@ -29,8 +30,6 @@ find . -type f \( -name '*.md' -o -name '*.pkl' -o -name '*.csv' -o -name '*.sql
  * 3_JavaScript/
      + [3.1_LAP-1.md](https://github.com/Shavvimal/personal_wiki/blob/main/3_JavaScript/3.1_LAP-1.md)
      + [3.2_Principles-of-Programming.md](https://github.com/Shavvimal/personal_wiki/blob/main/3_JavaScript/3.2_Principles-of-Programming.md)
-     + [3.20_Call-vs-Apply-vs-Bind.md](https://github.com/Shavvimal/personal_wiki/blob/main/3_JavaScript/3.20_Call-vs-Apply-vs-Bind.md)
-     + [3.21_Intro-to-Socket.IO.md](https://github.com/Shavvimal/personal_wiki/blob/main/3_JavaScript/3.21_Intro-to-Socket.IO.md)
      + [3.3_Programming-Languages-Q&A.md](https://github.com/Shavvimal/personal_wiki/blob/main/3_JavaScript/3.3_Programming-Languages-Q&A.md)
      + [3.4_Data-in-JavaScript.md](https://github.com/Shavvimal/personal_wiki/blob/main/3_JavaScript/3.4_Data-in-JavaScript.md)
      + [3.5_Logic-in-JavaScript.md](https://github.com/Shavvimal/personal_wiki/blob/main/3_JavaScript/3.5_Logic-in-JavaScript.md)
@@ -54,6 +53,8 @@ find . -type f \( -name '*.md' -o -name '*.pkl' -o -name '*.csv' -o -name '*.sql
      + [3.17_Deploying-an-Express-API-to-Heroku.md](https://github.com/Shavvimal/personal_wiki/blob/main/3_JavaScript/3.17_Deploying-an-Express-API-to-Heroku.md)
      + [3.18_AWS-Lambda.md](https://github.com/Shavvimal/personal_wiki/blob/main/3_JavaScript/3.18_AWS-Lambda.md)
      + [3.19_Deploying-a-Full-Stack-Application.md](https://github.com/Shavvimal/personal_wiki/blob/main/3_JavaScript/3.19_Deploying-a-Full-Stack-Application.md)
+     + [3.20_Call-vs-Apply-vs-Bind.md](https://github.com/Shavvimal/personal_wiki/blob/main/3_JavaScript/3.20_Call-vs-Apply-vs-Bind.md)
+     + [3.21_Intro-to-Socket.IO.md](https://github.com/Shavvimal/personal_wiki/blob/main/3_JavaScript/3.21_Intro-to-Socket.IO.md)
  * 4_Databases_Cyber_Security_and_Architecture/
      + [4.1_LAP-2.md](https://github.com/Shavvimal/personal_wiki/blob/main/4_Databases_Cyber_Security_and_Architecture/4.1_LAP-2.md)
      + [4.2_Intro-to-System-Architecture.md](https://github.com/Shavvimal/personal_wiki/blob/main/4_Databases_Cyber_Security_and_Architecture/4.2_Intro-to-System-Architecture.md)
@@ -106,6 +107,7 @@ find . -type f \( -name '*.md' -o -name '*.pkl' -o -name '*.csv' -o -name '*.sql
      + [6.12_Django-REST-Framework.md](https://github.com/Shavvimal/personal_wiki/blob/main/6_Python_Data_Science_Intro/6.12_Django-REST-Framework.md)
      + [6.13_MongoDB-Atlas.md](https://github.com/Shavvimal/personal_wiki/blob/main/6_Python_Data_Science_Intro/6.13_MongoDB-Atlas.md)
      + [6.14_python_asynchronous.md](https://github.com/Shavvimal/personal_wiki/blob/main/6_Python_Data_Science_Intro/6.14_python_asynchronous.md)
+     + [6.15_reading_and_writing_files.md](https://github.com/Shavvimal/personal_wiki/blob/main/6_Python_Data_Science_Intro/6.15_reading_and_writing_files.md)
  * 7_Docker/
      + [7.1_Setting-up-Containers-with-VS-Code.md](https://github.com/Shavvimal/personal_wiki/blob/main/7_Docker/7.1_Setting-up-Containers-with-VS-Code.md)
      + [7.2_Docker-101-Cheatsheet.md](https://github.com/Shavvimal/personal_wiki/blob/main/7_Docker/7.2_Docker-101-Cheatsheet.md)
@@ -113,7 +115,10 @@ find . -type f \( -name '*.md' -o -name '*.pkl' -o -name '*.csv' -o -name '*.sql
      + [7.4_Docker-&-AWS-EC2-Deployment.md](https://github.com/Shavvimal/personal_wiki/blob/main/7_Docker/7.4_Docker-&-AWS-EC2-Deployment.md)
  * 8_AWS/
      + [8.1_Deployment-101-with-AWS-S3.md](https://github.com/Shavvimal/personal_wiki/blob/main/8_AWS/8.1_Deployment-101-with-AWS-S3.md)
+     + [8.2_Lambda_Layers.md](https://github.com/Shavvimal/personal_wiki/blob/main/8_AWS/8.2_Lambda_Layers.md)
  * 9_README/
      + [9.1_Markdown-Cheatsheet.md](https://github.com/Shavvimal/personal_wiki/blob/main/9_README/9.1_Markdown-Cheatsheet.md)
      + [9.2_Markdown-Here-Cheatsheet.md](https://github.com/Shavvimal/personal_wiki/blob/main/9_README/9.2_Markdown-Here-Cheatsheet.md)
      + [9.3_Other-Markdown-Tools.md](https://github.com/Shavvimal/personal_wiki/blob/main/9_README/9.3_Other-Markdown-Tools.md)
+ * 10_Domain/
+     + [10.1_Definitions.md](https://github.com/Shavvimal/personal_wiki/blob/main/10_Domain/10.1_Definitions.md)
